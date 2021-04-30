@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/index.js"></script>
+  <title>Rock Paper Scissors</title>
+</head>
+<body>
+<iframe src="music.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+</iframe>
+<video autoplay muted loop id="myVideo">
+  <source src="Snowflakes.mp4" type="video/mp4">
+  <p>not supported video</p>
+</video>
+
+  
+  <div id="contant">
+    <h1>Rock Paper Scissors</h1>
+    <div class="button">
+      <button class="option" id="rock"><img class="Iamge" src="Images/Rock.png" alt="Rock" height="100" /></button>
+
+      <button class="option" id="paper"><img class="Iamge" src="Images/paper.png" alt="Paper" height="100" /></button>
+
+      <button class="option" id="scissors"><img class="Iamge" src="Images/scissors.png" alt="Scissors" height="100" /></button>
+
+    </div>
+
+    <center>
+      <div id="main">
+        <div class="score">
+          <div class="n">
+            <h4 class="player">You:</h4><h4 id="you">0 </h4>
+          </div>
+          <img id="u" src="images/rocks.png" alt="image not found" height="200" />
+        </div>
+        <h1 id="result"></h1>
+        <div class="score">
+          <div class="n">
+            <h4 class="player"> Computer:</h4><h4 id="computer"> 0</h4>
+          </div>
+          <img id="c" src="images/rocks.png" alt="image not found" height="200" />
+        </div>
+      </div>
+    </center>
+  </div>
+
+</body>
+</html>
